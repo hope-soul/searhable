@@ -7,7 +7,7 @@ import requests
 from PIL import Image
 
 # Пусть наше приложение предполагает запуск:
-# python E:\WU\WEB\HTTP\APPsearch.py Санкт-Петербург
+# python APPsearch.py Санкт-Петербург
 
 # Тогда запрос к геокодеру формируется следующим образом:
 toponym_to_find = " ".join(sys.argv[1:])
