@@ -9,6 +9,7 @@ from PIL import Image
 # Пусть наше приложение предполагает запуск:
 # python APPsearch.py Санкт-Петербург
 
+
 # Тогда запрос к геокодеру формируется следующим образом:
 toponym_to_find = " ".join(sys.argv[1:])
 print('\n' * 10)
